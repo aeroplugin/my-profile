@@ -1,0 +1,109 @@
+
+.parallax {
+  /* The image used */
+  background-image: url("https://c.tenor.com/Mc9mVlNasvMAAAAC/hi-hello.gif");
+
+  /* Set a specific height */
+  min-height: 900px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.links {
+  display: inline;
+  color: fuchsia;
+  padding-top: 0px;
+  padding-left: 9px;
+  padding-right: 9px;
+  padding-bottom: 5px;
+  font-family: fantasy;
+  font-size: 20px;
+}
+.links:hover {
+  font-size: 30px;
+  background-color: aqua;
+  text-decoration: underline;
+}
+
+#falloutboy {
+  width: 300px;
+  height: 271x;
+  border-radius: 20%;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#hobbyname {
+  font-size: 75px;
+  padding-left: 200px;
+}
+#hobbielest {
+  font-size: 30px;
+  font-family: "Monoton", cursive;
+}
+
+h1 {
+  text-shadow: 2px 2px #f8bbd0;
+  font-size: 30px;
+}
+html {
+  scroll-behavior: smooth;
+}
+img {
+  border-radius: 50%;
+  width: 200px;
+  border-width: 10px;
+  border-style: solid;
+  border-color: grey;
+}
+img {
+  transition: transform 0.2s;
+  border: 10px solid #aaaaaa;
+}
+img:hover {
+  transform: scale(0.5);
+}
+#contacts{
+  background: linear-gradient(#e1bee7 0%, #90caf9 100%);
+}
+.contact1 h3{
+  display:inline;
+}
+body{
+  text-align: center;
+  background:linear-gradient(#e1bee7 50%,#ffa6008f 50%)
+}
+#games{
+  text-align: center;
+}
+#contacts iframe{
+  width:90%;
+}
+#my-carousel{
+  background-color: turquoise;
+}
+#my-carousel img{
+  margin-top:15px;
+  height:400px;
+  width:400px;
+  border-radius:20%;
+  border-width:10px;
+  border-style: solid;
+  border-color: azure;
+}
+.carousel-inner h4{
+  margin-bottom:15px;
+  margin-top:5px;
+  color:darkgoldenrod;
+  font-size:30px;
+  font-family: 'Permanent Marker', cursive;
+}
+
+
